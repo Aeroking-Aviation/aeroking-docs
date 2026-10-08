@@ -1,0 +1,7 @@
+# AeroKing Help Centre — docs toolchain
+# Install with:  pip install -r requirements.txt
+# Preview with:  mkdocs serve      (live-reload at http://127.0.0.1:8000)
+# Build with:    mkdocs build      (static site in ./site)
+
+mkdocs-material>=9.5
+# Pulls in mkdocs + the pymdownx extensions used in mkdocs.yml.

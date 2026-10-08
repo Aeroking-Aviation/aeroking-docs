@@ -1,0 +1,123 @@
+site_name: AeroKing Help Centre
+site_description: End-user documentation for the AeroKing Aviation platform — dashboard, planner, warehouse and more.
+site_author: AeroKing Aviation
+# Set this to your published docs URL once hosted (used for sitemap + canonical links).
+site_url: https://help.aerokingaviation.com/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Theme
+# ─────────────────────────────────────────────────────────────────────────────
+theme:
+  name: material
+  language: en
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant      # SPA-style page loads
+    - navigation.tracking     # URL updates with the active anchor
+    - navigation.tabs         # top-level sections become tabs (one per product)
+    - navigation.sections     # group headings in the sidebar
+    - navigation.top          # back-to-top button
+    - navigation.footer       # prev/next links
+    - navigation.indexes      # section index pages
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tooltips
+    - toc.follow
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Navigation
+# Each AeroKing product is a top-level tab. To add a new product (e.g. Planner,
+# Warehouse), copy the pattern below and drop a matching folder under docs/.
+# See docs/contributing.md for the step-by-step.
+# ─────────────────────────────────────────────────────────────────────────────
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Dashboard:
+      - dashboard/overview.md
+      - Role manuals:
+          - dashboard/roles/index.md
+          - Administrator: dashboard/roles/admin.md
+          - Instructor: dashboard/roles/instructor.md
+          - Student & pilot: dashboard/roles/student.md
+          - Front desk / Staff: dashboard/roles/staff.md
+          - Engineer: dashboard/roles/engineer.md
+      - Reference:
+          - Capabilities & permissions: dashboard/reference/capabilities.md
+          - Glossary: dashboard/reference/glossary.md
+      - FAQ: dashboard/faq.md
+  - Planner:
+      - planner/index.md
+  - Warehouse:
+      - warehouse/index.md
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Markdown + extensions
+# ─────────────────────────────────────────────────────────────────────────────
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details          # collapsible ??? blocks
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys             # ++ctrl+s++ key renderings
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true   # tabs for role / variant comparisons
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+# Copy-paste skeletons for new roles/products. Kept in the repo for authors but NOT
+# published to the built site (see docs/contributing.md). Remove a path here if you ever
+# want a template to appear in the output.
+exclude_docs: |
+  _templates/
+  contributing.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://aerokingaviation.com
+  # Global abbreviations are defined in docs/includes/abbreviations.md and injected
+  # per-page by the snippets extension if you enable it later.
+
+copyright: >
+  Copyright &copy; AeroKing Aviation — internal and customer help documentation.

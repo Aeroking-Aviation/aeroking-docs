@@ -1,0 +1,9 @@
+# Normalise line endings to LF for all text files so the repo is consistent
+# across Windows/macOS/Linux and CI.
+* text=auto eol=lf
+
+# Treat these as binary (never normalise).
+*.svg binary
+*.png binary
+*.jpg binary
+*.ico binary
