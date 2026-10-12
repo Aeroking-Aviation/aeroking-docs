@@ -41,6 +41,10 @@ page to jump to a topic, or browse the sections below.
 
 ## Bookings
 
+??? question "How do I book my own lesson or slot? (students)"
+    From **My Calendar**, pick a free slot and send a request. It arrives at the office as
+    **pending**; once they confirm it, it appears on your calendar and you get a notification.
+
 ??? question "I requested a booking — why isn't it confirmed?"
     A request starts as **pending** until the school approves it. You'll get a notification
     when it's confirmed or declined. Confirmed bookings appear on your calendar.
@@ -62,6 +66,10 @@ page to jump to a topic, or browse the sections below.
 ??? question "Can I print my logbook?"
     Yes — open **Pilot's Logbook** and choose **print** for a clean, printable copy suitable
     for your paper logbook or a licence application.
+
+??? question "How do the lesson quizzes work? (students)"
+    Open a lesson in **My Courses** and take its quiz right inside the lesson. Practice quizzes
+    give you your score with explanations, and passing one can tick off that lesson's progress.
 
 ## Money
 
@@ -89,15 +97,67 @@ page to jump to a topic, or browse the sections below.
     They submit a request through the school's public **parking-request** link; it arrives
     in the Handling queue for staff to approve. See the [Staff manual](roles/staff.md#check-a-visiting-aircraft-in-and-out-handling).
 
+## Safety reporting
+
+??? question "How do I raise a safety report?"
+    Open **Safety → My Reports** and select **Raise a report** — pick the type (occurrence,
+    hazard or observation), say what happened, and submit. You can also start one straight from
+    a flight close-out or a booking, which links the aircraft and people automatically.
+
+??? question "Can I report something without my name attached?"
+    Yes. Tick **Submit confidentially** on the report and your name is hidden from everyone
+    except the safety team.
+
+??? question "What happens after I submit a report?"
+    The safety team sees it in the register, classifies it on the risk matrix, records their
+    investigation and closes it out. You can follow your own reports under **Safety → My Reports**.
+
+## Office / HR
+
+??? question "How do I request annual leave or log a sick day?"
+    Open **HR → Leave**, choose your dates (your remaining allowance is shown) and submit. A
+    manager approves or declines and you're notified. Sick days are logged on the same page.
+
+??? question "Where are the company policies / my certificates?"
+    Company policies (with your acknowledgements) are under **HR → Policies**; your ratings,
+    medicals and other certificates — with expiry reminders — are under **HR → Certifications**.
+
+## Rooms & bulk email
+
+??? question "Can I book a classroom or briefing room?"
+    If your school has made a room bookable, it appears as a resource on the booking form,
+    just like an aircraft or instructor. Rooms are managed under **Settings → Rooms & Facilities**.
+
+??? question "How do we email all our members? (staff/admin)"
+    If the **Email Centre** add-on is enabled, build a mailing list (a live member filter or a
+    hand-picked set), compose with templates and merge fields, and send now or schedule it.
+    Delivery, opens and resend-to-failed are on the campaign afterwards.
+
+## Your AeroKing plan (admins)
+
+??? question "Where do I see our plan, aircraft allowance and renewal?"
+    Owners/administrators can open **Settings → Licence** for your plan, how many aircraft you're
+    using versus your allowance, active add-ons, your next renewal and your signed agreement.
+
+??? question "Why can't I add another aircraft?"
+    You've reached your plan's aircraft allowance — the **Add Aircraft** button is disabled at the
+    limit. Remove an aircraft, or contact AeroKing to raise the allowance (see **Settings → Licence**).
+
 ## Technical
 
 ??? question "Does AeroKing work on a phone or tablet?"
     Yes. The menu collapses into a **☰** button; everything else adapts to the smaller
     screen.
 
+??? question "Is there in-app help / a guided tour?"
+    Yes — the **Ask Bjorn** helper (the ✨ button, bottom corner) tailors itself to the page
+    you're on. Tap a topic for a quick answer, or start a **guided walkthrough** that steps you
+    through a task (e.g. grading a lesson, raising a safety report, requesting leave) — some even
+    highlight the right buttons on the page as you go.
+
 ??? question "I think something's broken / I have a suggestion"
     Use the **Feedback** button (bottom corner of most pages) to report it to the AeroKing
-    team, or the **Assistant** for a quick how-to. You can also use the **Support** link in
+    team, or **Ask Bjorn** for a quick how-to. You can also use the **Support** link in
     your portal footer.
 
 ---

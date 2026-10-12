@@ -57,6 +57,22 @@ nav:
   - Getting started: getting-started.md
   - Dashboard:
       - dashboard/overview.md
+      - Guides:
+          - dashboard/guides/index.md
+          - Bookings & the calendar: dashboard/guides/bookings.md
+          - Billing & payments: dashboard/guides/billing.md
+          - Handling / PPR: dashboard/guides/handling-ppr.md
+          - Fleet & maintenance: dashboard/guides/fleet-maintenance.md
+          - Training, courses & assessments: dashboard/guides/training.md
+          - Safety reporting: dashboard/guides/safety.md
+          - Office, HR & compliance: dashboard/guides/office-hr.md
+          - Email Centre: dashboard/guides/email-centre.md
+          - Digital forms & waivers: dashboard/guides/forms.md
+          - Rooms & facilities: dashboard/guides/rooms.md
+          - Importing your data: dashboard/guides/importing.md
+          - Your plan & licence: dashboard/guides/licence.md
+          - Notifications & email settings: dashboard/guides/notifications.md
+          - Usage reports: dashboard/guides/reports.md
       - Role manuals:
           - dashboard/roles/index.md
           - Administrator: dashboard/roles/admin.md
